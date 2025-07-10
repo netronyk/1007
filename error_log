@@ -1,0 +1,30 @@
+[09-Jul-2025 12:50:56 Asia/Jerusalem] Database query failed: SQLSTATE[HY093]: Invalid parameter number: mixed named and positional parameters SQL: UPDATE users SET last_login = :last_login WHERE id = ?
+[09-Jul-2025 12:50:56 Asia/Jerusalem] Database update failed: שגיאה בביצוע שאילתה: SQLSTATE[HY093]: Invalid parameter number: mixed named and positional parameters
+[09-Jul-2025 12:50:56 Asia/Jerusalem] Login error: שגיאה בעדכון רשומה: שגיאה בביצוע שאילתה: SQLSTATE[HY093]: Invalid parameter number: mixed named and positional parameters
+[09-Jul-2025 12:52:26 Asia/Jerusalem] PHP Warning:  require_once(includes/User.php): Failed to open stream: No such file or directory in /home/windexco/public_html/sport365/dashboard.php on line 9
+[09-Jul-2025 12:52:26 Asia/Jerusalem] PHP Fatal error:  Uncaught Error: Failed opening required 'includes/User.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/windexco/public_html/sport365/dashboard.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/windexco/public_html/sport365/dashboard.php on line 9
+[09-Jul-2025 12:54:35 Asia/Jerusalem] PHP Warning:  Undefined array key "profile_image" in /home/windexco/public_html/sport365/includes/navbar.php on line 78
+[09-Jul-2025 12:54:35 Asia/Jerusalem] PHP Warning:  Undefined array key "profile_image" in /home/windexco/public_html/sport365/dashboards/member-dashboard.php on line 313
+[09-Jul-2025 12:54:35 Asia/Jerusalem] PHP Warning:  Undefined array key "membership_end" in /home/windexco/public_html/sport365/dashboards/member-dashboard.php on line 329
+[09-Jul-2025 12:55:16 Asia/Jerusalem] PHP Fatal error:  Cannot redeclare redirect() (previously declared in /home/windexco/public_html/sport365/includes/config.php:127) in /home/windexco/public_html/sport365/includes/functions.php on line 11
+[09-Jul-2025 12:59:58 Asia/Jerusalem] PHP Warning:  Undefined array key "profile_image" in /home/windexco/public_html/sport365/includes/navbar.php on line 78
+[09-Jul-2025 12:59:58 Asia/Jerusalem] PHP Warning:  Undefined array key "profile_image" in /home/windexco/public_html/sport365/dashboards/member-dashboard.php on line 313
+[09-Jul-2025 12:59:58 Asia/Jerusalem] PHP Warning:  Undefined array key "membership_end" in /home/windexco/public_html/sport365/dashboards/member-dashboard.php on line 329
+[09-Jul-2025 13:01:16 Asia/Jerusalem] PHP Warning:  Undefined array key "profile_image" in /home/windexco/public_html/sport365/includes/navbar.php on line 78
+[09-Jul-2025 13:01:16 Asia/Jerusalem] PHP Warning:  Undefined array key "profile_image" in /home/windexco/public_html/sport365/dashboards/member-dashboard.php on line 313
+[09-Jul-2025 13:01:16 Asia/Jerusalem] PHP Warning:  Undefined array key "membership_end" in /home/windexco/public_html/sport365/dashboards/member-dashboard.php on line 329
+[09-Jul-2025 13:05:15 Asia/Jerusalem] PHP Warning:  Undefined array key "profile_image" in /home/windexco/public_html/sport365/dashboards/member-dashboard.php on line 313
+[09-Jul-2025 13:05:15 Asia/Jerusalem] PHP Warning:  Undefined array key "membership_end" in /home/windexco/public_html/sport365/dashboards/member-dashboard.php on line 329
+[09-Jul-2025 13:06:22 Asia/Jerusalem] PHP Warning:  require_once(includes/SessionManager.php): Failed to open stream: No such file or directory in /home/windexco/public_html/sport365/logout.php on line 7
+[09-Jul-2025 13:06:22 Asia/Jerusalem] PHP Fatal error:  Uncaught Error: Failed opening required 'includes/SessionManager.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/windexco/public_html/sport365/logout.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/windexco/public_html/sport365/logout.php on line 7
+[09-Jul-2025 13:29:08 Asia/Jerusalem] PHP Fatal error:  Uncaught Error: Call to undefined method Database::fetchRow() in /home/windexco/public_html/sport365/includes/Auth.php:23
+Stack trace:
+#0 /home/windexco/public_html/sport365/login.php(80): Auth->login()
+#1 {main}
+  thrown in /home/windexco/public_html/sport365/includes/Auth.php on line 23
